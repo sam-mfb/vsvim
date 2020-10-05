@@ -1,0 +1,13 @@
+nnoremap gr :vsc Edit.FindAllReferences<CR>
+nnoremap gp :vsc Edit.PeekDefinition<CR>
+nnoremap <leader>rn :vsc Refactor.Rename<CR>
+nnoremap K :vsc Edit.QuickInfo<cr>
+
+" jump between compilation errors
+nnoremap ]g :vsc View.NextError<cr>
+nnoremap [g :vsc View.PreviousError<cr>
+
+map <c-h> <c-w>h
+map <c-l> <c-w>l
+
+nnoremap <c-a>% :vsc Window.NewVerticalTabGroup<cr>
