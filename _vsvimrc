@@ -11,3 +11,5 @@ map <c-h> <c-w>h
 map <c-l> <c-w>l
 
 nnoremap <c-a>% :vsc Window.NewVerticalTabGroup<cr>
+
+nnoremap <c-p> :vsc Edit.GoToFile<cr>
