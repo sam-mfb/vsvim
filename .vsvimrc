@@ -1,0 +1,5 @@
+nnoremap gr :vsc MonoDevelop.Refactoring.RefactoryCommands.FindReferences<CR>
+nnoremap <leader>rn :vsc MonoDevelop.Ide.Commands.EditCommands.Rename<CR>
+nnoremap K :vsc MonoDevelop.Ide.Commands.TextEditorCommands.ShowQuickInfo<cr>
+
+nnoremap <C-p> :vsc MonoDevelop.Ide.Commands.SearchCommands.GoToFile<cr>
